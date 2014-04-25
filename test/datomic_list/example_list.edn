@@ -21,41 +21,26 @@
 {:db/id #db/id[:db.part/user -1000001]
  :linknode/list #db/id[:db.part/user -1000000]
  :linknode/next #db/id[:db.part/user -1000002]
- :linknode/elem #db/id[:db.part/user -1000011]}
+ :elem/data "A"}
 
 {:db/id #db/id[:db.part/user -1000002]
  :linknode/list #db/id[:db.part/user -1000000]
  :linknode/next #db/id[:db.part/user -1000003]
- :linknode/elem #db/id[:db.part/user -1000012]}
+ :elem/data "B"}
 
 {:db/id #db/id[:db.part/user -1000003]
  :linknode/list #db/id[:db.part/user -1000000]
  :linknode/next #db/id[:db.part/user -1000004]
- :linknode/elem #db/id[:db.part/user -1000013]}
+ :elem/data "C"}
 
 {:db/id #db/id[:db.part/user -1000004]
  :linknode/list #db/id[:db.part/user -1000000]
  :linknode/next #db/id[:db.part/user -1000005]
- :linknode/elem #db/id[:db.part/user -1000014]}
+ :elem/data "D"}
 
 {:db/id #db/id[:db.part/user -1000005]
  :linknode/list #db/id[:db.part/user -1000000]
  :linknode/next :linknode/empty
- :linknode/elem #db/id[:db.part/user -1000015]}
-
-{:db/id #db/id[:db.part/user -1000011]
- :elem/data "A"}
-
-{:db/id #db/id[:db.part/user -1000012]
- :elem/data "B"}
-
-{:db/id #db/id[:db.part/user -1000013]
- :elem/data "C"}
-
-{:db/id #db/id[:db.part/user -1000014]
- :elem/data "D"}
-
-{:db/id #db/id[:db.part/user -1000015]
  :elem/data "E"}
 
 ]

@@ -4,4 +4,4 @@
   :license {:name "Apache License, Version 2.0"
             :url "http://www.apache.org/licenses/LICENSE-2.0"}
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [com.datomic/datomic-free "0.8.4007"]])
+                 [com.datomic/datomic-free "0.9.4755"]])

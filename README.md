@@ -5,6 +5,6 @@ A Datomic library of schema attributes and database functions to implement linke
 
 ## License
 
-Copyright © 2013 Pellucid Analytics
+Copyright © 2014 Pellucid Analytics
 
 Distributed under the Apache License, Version 2.0.

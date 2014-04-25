@@ -15,13 +15,13 @@
 
 [
 
-;; an example element
+;; an example attribute to attach to list nodes
 
 {:db/id #db/id[:db.part/db]
  :db/ident :elem/data
  :db/valueType :db.type/string
  :db/cardinality :db.cardinality/one
- :db/doc "An element for the list"
+ :db/doc "Example data to store in list nodes"
  :db.install/_attribute :db.part/db}
 
 ]
