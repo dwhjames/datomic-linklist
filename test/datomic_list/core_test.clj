@@ -16,13 +16,21 @@
 (ns datomic-list.core-test
   (:use clojure.test
         datomic-list.core)
-  (:require
-    [datomic.api :as d]))
+  (:require [datomic.api :as d]
+            [clojure.java.io :as io]))
 
 (def uri "datomic:mem://linkedlist")
 
-(def list-schema-tx (read-string (slurp "src/datomic_list/list_schema.edn")))
-(def test-schema-tx (read-string (slurp "test/datomic_list/test_schema.edn")))
+(defn read-tx-data
+  [name]
+  (-> name
+      io/resource
+      io/file
+      slurp
+      read-string))
+
+(def list-schema-tx (read-tx-data "list_schema.edn"))
+(def test-schema-tx (read-tx-data "test_schema.edn"))
 
 (defn db-global-fixture
   "a test fixture for Datomic"
@@ -38,7 +46,7 @@
 
 (use-fixtures :once db-global-fixture)
 
-(def test-data-tx (read-string (slurp "test/datomic_list/example_list.edn")))
+(def test-data-tx (read-tx-data "example_list.edn"))
 
 ;; test how elements are chained together
 (deftest test-chain-elems-tx
