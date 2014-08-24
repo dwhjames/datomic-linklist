@@ -1,4 +1,4 @@
-(defproject datomic-list "0.1.0-SNAPSHOT"
+(defproject datomic-linklist "0.1.0-SNAPSHOT"
   :description "An implementation of linked lists for Datomic"
   :url "https://github.com/pellucidanalytics/datomic-linklist"
   :license {:name "Apache License, Version 2.0"
