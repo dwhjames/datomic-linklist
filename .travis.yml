@@ -1,3 +1,4 @@
+sudo: false
 language: clojure
 lein: lein2
 branches:
@@ -5,3 +6,6 @@ branches:
     - master
 jdk:
   - oraclejdk7
+cache:
+  directories:
+    - $HOME/.m2/repository

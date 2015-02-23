@@ -1,4 +1,4 @@
-# datomic-linklist [![Build Status](https://travis-ci.org/pellucidanalytics/datomic-linklist.svg?branch=master)](https://travis-ci.org/pellucidanalytics/datomic-linklist)
+# datomic-linklist [![Build Status](https://travis-ci.org/dwhjames/datomic-linklist.svg?branch=master)](https://travis-ci.org/dwhjames/datomic-linklist)
 
 A Datomic library of schema attributes and database functions to implement linked-list structures in Datomic.
 
